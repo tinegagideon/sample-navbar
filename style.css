@@ -2,7 +2,7 @@
 	padding: 0;
 	margin: 0;		
 	box-sizing: border-box;
-	outline: 1px solid purple;
+	/* outline: 1px solid purple; */
 }
 body{
 	font-family: monospace;
@@ -11,8 +11,6 @@ body{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	list-style: none;
-
 }
 nav{
 	background: #008080; 
@@ -26,20 +24,22 @@ nav{
 	font-weight: bold;
 } 
 nav ul{
+	margin: 0;
+	padding: 0;
 	display: flex;
 }
 nav ul li{
 	list-style: none;
+	padding: 30px;
 }
 nav ul li a{
 	text-decoration: none;
 	color: white;
 	font-size: 20px;
 	text-transform: uppercase;
-	padding: 10px 6px;
-	border-radius: 3px;	
+	
 }
-nav ul li a:hover{
+nav ul li:hover{
 	background: #027575;
 	transition: .1s;
 }
@@ -84,7 +84,7 @@ nav ul li{
 	
 }
 .navbar-links li a{
-	padding: 0.5rem 1rem;
+	/* padding: 0.5rem 1rem; */
 	display: block;
 }
 .navbar-links.active{
